@@ -11,7 +11,7 @@ function BotArmy({botArmy, removeBot, deleteBot}) {
           {botArmy.map((bot) => (
             <BotCard bot={bot} handleBot={removeBot} handleDeleteBot={deleteBot}/>
           ))}
-          Your Troops
+          Your Bot Troops
         </div>
       </div>
     </div>
