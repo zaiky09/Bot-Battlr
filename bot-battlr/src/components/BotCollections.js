@@ -10,7 +10,7 @@ function BotCollection({bots, addBot, deleteBot}) {
           <BotCard bot={bot} handleBot={addBot} handleDeleteBot={deleteBot}/>
         ))}
         
-        All Troops
+        All Bot Troops
       </div>
     </div>
   );
