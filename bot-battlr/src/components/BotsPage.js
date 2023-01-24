@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import BotArmy from "./BotArmy";
-import BotCollection from "./BotCollection";
+import BotCollection from "./BotCollections";
 
 function BotsPage() {
   
@@ -10,7 +10,7 @@ function BotsPage() {
   useEffect(() => {
     fetch("https://zaiky09.github.io/db/botdb.json")
     .then (res => res.json())
-    .then (bots => setBots(bots))
+    .then ((data) => setBots(data.bots));
   }, []);
 
 console.log(bots)
