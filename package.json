@@ -1,0 +1,28 @@
+{
+  "name": "bot-battlr",
+  "version": "1.0.0",
+  "description": "Battle Bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaiky09/Bot-Battlr.git"
+  },
+  "keywords": [
+    "battle",
+    "bot"
+  ],
+  "author": "Zamil Mozamil Sheikh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaiky09/Bot-Battlr/issues"
+  },
+  "homepage": "https://github.com/zaiky09/Bot-Battlr#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4"
+  }
+}
