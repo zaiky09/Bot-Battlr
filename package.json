@@ -22,7 +22,9 @@
   "homepage": "https://github.com/zaiky09/Bot-Battlr#readme",
   "dependencies": {
     "create-react-app": "^5.0.1",
+    "semantic": "^0.0.1",
     "semantic-ui-css": "^2.5.0",
-    "semantic-ui-react": "^2.1.4"
+    "semantic-ui-react": "^2.1.4",
+    "ui": "^0.2.4"
   }
 }

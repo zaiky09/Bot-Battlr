@@ -8,7 +8,7 @@ function BotsPage() {
   const [botArmy, setBotArmy] = useState([]);
   
   useEffect(() => {
-    fetch("https://zaiky09.github.io/db/botdb.json")
+    fetch("https://api.npoint.io/250d921e0f32665a2881")
     .then (res => res.json())
     .then ((data) => setBots(data.bots));
   }, []);
@@ -34,7 +34,7 @@ console.log(bots)
       setBots(filterBots)
       setBotArmy(filterBotArmy)
 
-  fetch (`http://localhost:3000/bots/${armyBot.id}`, {
+  fetch (`https://api.npoint.io/250d921e0f32665a2881${armyBot.id}`, {
     method: "DELETE"
   })
 }
