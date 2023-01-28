@@ -7,8 +7,8 @@ function BotCollection({bots, addBot, deleteBot}) {
         (bot) => 
         <BotCard key={bots.id}
                  bot={bot}   
-                 clickEvent={addBot}
-                 delteBot={deleteBot}   
+                 addBot={addBot}
+                 deleteBot={deleteBot}   
             />
     )
 
