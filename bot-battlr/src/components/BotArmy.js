@@ -9,7 +9,7 @@ function BotArmy({botArmy, removeBot, deleteBot}) {
       <div className="ui five column grid">
         <div className="row bot-army-row">
           {botArmy.map((bot) => (
-            <BotCard bot={bot} handleBot={removeBot} handleDeleteBot={deleteBot}/>
+            <BotCard bot={bot} removeBot={removeBot} deleteBot={deleteBot}/>
           ))}
           Your Bot Troops
         </div>
