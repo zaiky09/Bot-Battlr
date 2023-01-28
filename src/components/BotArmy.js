@@ -7,11 +7,13 @@ function BotArmy({botArmy, removeBot, deleteBot}) {
   return (
     <div className="ui segment inverted gold bot-army">
       <div className="ui five column grid">
+        
+          <strong>YOUR BOTS</strong>
+        
         <div className="row bot-army-row">
           {botArmy.map((bot) => (
             <BotCard bot={bot} removeBot={removeBot} deleteBot={deleteBot}/>
           ))}
-          Your Bot Troops
         </div>
       </div>
     </div>

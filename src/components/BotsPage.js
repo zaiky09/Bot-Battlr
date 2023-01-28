@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import BotArmy from "./BotArmy";
 import BotCollection from "./BotCollections";
+import Navbar from "./Navbar";
 
 function BotsPage() {
   
@@ -42,6 +43,7 @@ console.log(bots)
 
   return (
     <div>
+      <Navbar/>
       <BotArmy botArmy={botArmy} removeBot={removeBotFromArmy} deleteBot={deleteBotPermanently}/>
       <BotCollection bots={bots} addBot={enlistBotToArmy} deleteBot={deleteBotPermanently}/>
     </div>

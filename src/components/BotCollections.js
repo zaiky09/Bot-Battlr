@@ -14,9 +14,9 @@ function BotCollection({bots, addBot, deleteBot}) {
 
   return (
     <div className="ui four column grid">
+      <strong>ALL BOTS</strong>
       <div className="row">
         {botsMap}    
-        All Bot Troops
       </div>
     </div>
   );

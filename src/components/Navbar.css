@@ -1,0 +1,8 @@
+h1 {
+    font-style: italic;
+    font-size: 40px;
+}
+
+.bar {
+    background-image: linear-gradient(red, white);
+}
